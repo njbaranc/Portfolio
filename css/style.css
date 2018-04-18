@@ -1,0 +1,171 @@
+.topbar {
+  background-color: rgba(113, 103, 124, 0.55);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titles {
+  padding-bottom: 3%;
+}
+
+.about {
+  padding-top:13%;
+
+}
+ 
+#end-about{
+padding-bottom:2%;
+}
+
+.body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("https://i.imgur.com/fIg0B5os.png");
+    background-color: gray;
+}
+
+.navi{ 
+position: fixed;
+z-index:999;
+}
+  
+.main {
+  postion: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arrows{
+  color: rgba(113, 103, 124);
+}
+
+.arrows:hover {
+  color: rgb(157, 192, 188);
+}
+
+#port-title{
+  margin-bottom: 5%;
+}
+
+#contact-title{
+  margin-bottom:5%;
+}
+.port-row{
+  margin-bottom: 3%;
+}
+.port-el{
+  margin-bottom: 3%;
+}
+
+.headshot {
+margin-bottom: 2%;
+}
+
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 32%;
+    height: 2px;
+    margin-bottom: 5%;
+  background-color: #8c8b8b;
+}
+
+.fa {
+  margin-top: 3%;
+}
+
+#sub {
+  background-color: rgb(113, 103, 124);
+}
+
+.fa-envelope{
+  color: rgb(113, 103, 124);
+}
+
+
+
+.main {
+  background-color: rgba(157, 192, 188, 0.54);
+  padding-bottom: 3%;
+}
+
+.name {
+  padding-bottom: 20%:
+}
+
+.navi {
+  margin-left: 1%;
+}
+
+.emaile {
+  margin-top: 16%;
+}
+
+a {
+  color: rgb(157, 192, 188) !important;
+}
+
+.footer {
+  width:100%;
+  background-color:rgba(113, 103, 124, 0.75);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #DDDEDE; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(113, 103, 124) !important;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgb(157, 192, 188) !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
